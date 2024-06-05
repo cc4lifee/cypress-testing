@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "cy:run:chrome": "cypress run -b chrome",
+    "cy:open":"cypress open"
+  },
   "devDependencies": {
     "cypress": "^13.10.0"
   }
